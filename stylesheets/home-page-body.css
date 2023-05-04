@@ -1,0 +1,96 @@
+body {
+    background-size: cover;
+    animation: slideshow 600s infinite alternate;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url(../images/background-images/still-lake.jpg);
+    }
+
+    10% {
+        background-image: url(../images/background-images/bridge.jpg);
+    }
+
+    20% {
+        background-image: url(../images/background-images/field-over-sea.png);
+    }
+
+    30% {
+        background-image: url(../images/background-images/mountain-church.jpg);
+    }
+
+    40% {
+        background-image: url(../images/background-images/tropical-cove.jpg);
+    }
+
+    50% {
+        background-image: url(../images/background-images/waterfall.jpg);
+    }
+
+    100% {
+        background-image: url(../images/background-images/wide-waterfall.jpg);
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+#body-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    width: 65%;
+    height: 80%;
+    /* border: 3px solid red; */
+    padding-top: 80px;
+
+}
+
+#body-text>div {
+    margin: 20px;
+}
+
+#inspiration-quote {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#community-quote {
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#image-caption {
+    font-size: 14px;
+    align-self: center;
+    width: 200px;
+    padding: 45px 0;
+    line-height: 150%;
+    margin-bottom: 100px;
+}
+
+#start-for-free-container>button {
+    border: none;
+    border-radius: 3px;
+    height: 64px;
+    width: 200px;
+    padding: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#start-for-free-button:hover {
+    color: gray;
+}

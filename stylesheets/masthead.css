@@ -1,0 +1,87 @@
+#masthead-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 0 24px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+#flickr-masthead-logo {
+    border: none;
+    background-color: transparent;
+}
+
+#flickr-masthead-logo:hover {
+    cursor: pointer;
+}
+
+#mastead-logo-container {
+    display: flex;
+    /* align-items: center; */
+}
+
+#logo-image {
+    height: 24px;
+
+}
+
+#masthead-search-bar {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid red; */
+    border-radius: 2px;
+    height: 33px;
+    background-color: rgba(255, 255, 255);
+}
+
+#magnifying-glass-image {
+    height: 20px;
+    padding: 10px;
+
+}
+
+#masthead-search-bar>p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+}
+
+#masthead-right-buttons>#log-in {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 0 20px;
+}
+
+#sign-up {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+    transition: color .15s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up:hover {
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    cursor: pointer;
+}
+
+#masthead-right-buttons {
+    display: flex;
+    align-items: center;
+}

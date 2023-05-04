@@ -29,6 +29,12 @@
 #social-media-icon-container>img {
     width: 20px;
     margin: 0 20px;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#social-media-icon-container>img:hover {
+    opacity: 100%;
 }
 
 

@@ -1,6 +1,6 @@
 body {
     background-size: cover;
-    animation: slideshow 600s infinite alternate;
+    animation: slideshow 600s alternate;
 }
 
 @keyframes slideshow {
@@ -89,6 +89,7 @@ main {
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+    transition: 0.125s;
 }
 
 #start-for-free-button:hover {

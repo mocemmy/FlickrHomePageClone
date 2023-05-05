@@ -6,7 +6,7 @@
     padding: 20px 0px;
     justify-content: space-evenly;
     background-color: black;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     font-family: sans-serif;

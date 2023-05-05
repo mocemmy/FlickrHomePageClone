@@ -1,6 +1,7 @@
 body {
     background-size: cover;
-    animation: slideshow 600s alternate;
+    animation: 600s alternate infinite slideshow;
+    animation-timing-function: steps(6);
 }
 
 @keyframes slideshow {
@@ -8,23 +9,23 @@ body {
         background-image: url(../images/background-images/still-lake.jpg);
     }
 
-    10% {
+    16% {
         background-image: url(../images/background-images/bridge.jpg);
     }
 
-    20% {
+    33% {
         background-image: url(../images/background-images/field-over-sea.png);
     }
 
-    30% {
+    50% {
         background-image: url(../images/background-images/mountain-church.jpg);
     }
 
-    40% {
+    66% {
         background-image: url(../images/background-images/tropical-cove.jpg);
     }
 
-    50% {
+    83% {
         background-image: url(../images/background-images/waterfall.jpg);
     }
 

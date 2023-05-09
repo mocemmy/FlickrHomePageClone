@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
 
-    animation: change-image 10s linear forwards;
+    animation: change-image 10s linear forwards infinite;
 }
 
 #slideshow-images-container {
